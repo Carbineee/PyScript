@@ -1,13 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "c:\\xampp\\htdocs\\pyhwid"
-		},
-		{
 			"path": "pyScript"
 		},
 		{
 			"path": "hwid"
+		},
+		{
+			"path": "website"
 		}
 	],
 	"settings": {},

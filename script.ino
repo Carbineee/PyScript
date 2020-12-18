@@ -9,8 +9,11 @@ void setup() {
 
 void loop() {
   if (Serial.available() > 0) {
+    digitalWrite(LED_BUILTIN, HIGH);
     Serial.readBytes(bf, 2);
     Mouse.move(bf[0], bf[1], 0);
     Serial.print(bf[0]);
+  }else {
+    digitalWrite(LED_BUILTIN, LOW);
   }
 }
